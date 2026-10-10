@@ -5,6 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [Unreleased]
+
+### Fixed
+
+- Made `App.suspend()` exception-safe so application mode always resumes and the app does not deadlock when the suspended block raises https://github.com/Textualize/textual/issues/6692
+
 ## [8.2.8] - 2026-06-30
 
 ### Fixed
